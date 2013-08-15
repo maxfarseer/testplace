@@ -1,0 +1,99 @@
+body {
+	font: 12px Arial;
+}
+h2 {
+	clear: both;
+}
+.tab-lbl {
+	width: 58px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	color: #FFF;
+	background: #525252;
+	margin: 0 0 0 1px;
+	float: left;
+	cursor: pointer;
+	font-size: 14px;
+}
+#tab_1:checked ~ #tab_l1,
+#tab_2:checked ~ #tab_l2,
+#tab_3:checked ~ #tab_l3,
+#tab_4:checked ~ #tab_l4 {
+	background: #A3D769;
+	color: #000;
+}
+.input-tab {
+	position: absolute;
+	left: -9999px;
+}
+.tabcontent {
+	width: 285px;
+	background: #A3D769;
+	padding: 25px 15px;
+	clear: both;
+	position: relative;
+}
+.tabcontent > .tabcontent__item {
+	position: absolute;
+	list-style: -9999px;
+	top: 0;
+	display: none;
+}
+#tab_1:checked ~ .tabcontent #tab_c1,
+#tab_2:checked ~ .tabcontent #tab_c2,
+#tab_3:checked ~ .tabcontent #tab_c3,
+#tab_4:checked ~ .tabcontent #tab_c4 {
+	position: relative;
+	left: 0;
+	display: block;
+}
+
+/* loader */
+.loader {
+	width: 285px;
+	height: 55px;
+	position: relative;
+	background: #A3D769;
+	color: #525252;
+	float: left;
+	margin: 0 0 10px;
+}
+.loader__txt {
+	position: absolute;
+	width: 135px;
+	top: 20px;
+	left: 75px;
+	overflow: hidden;
+}
+.loader-black {
+	background: #525252;
+	color: #A3D769;
+	position: absolute;
+	top: 0;
+	width: 0px;
+	overflow: hidden;
+}
+.loader-terms {
+	float: left;
+	margin: 0 0 0 20px;
+}
+
+/* menu */
+.menu__wrapper {
+	width: 495px;
+	height: 40px;
+	background: #525252;
+}
+.menu {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.menu__item {
+	float: left;
+	list-style: none;
+	line-height: 40px;
+	padding: 0 23px;
+	color: #FFF;
+}

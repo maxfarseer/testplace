@@ -2,14 +2,65 @@
 <head>
     <title>Test #1</title>
     <meta charset="utf-8">
-    <link href="css/main.css" rel="stylesheet" media="screen">
+    <link href="css/my.css" rel="stylesheet" media="screen">
+    <script src="js/jquery.min.js"></script>
     <script src="js/my.js"></script>
 </head>
 
 <body>
+
+<h2>Табы</h2>
+
+<div class="tabs__wrapper">
+
+    <input id="tab_1" class="input-tab" type="radio" name="tab" checked="checked" />
+    <input id="tab_2" class="input-tab" type="radio" name="tab" />
+    <input id="tab_3" class="input-tab" type="radio" name="tab" />
+    <input id="tab_4" class="input-tab" type="radio" name="tab" />
     
+    <label class="tab-lbl" for="tab_1" id="tab_l1">1</label>
+    <label class="tab-lbl" for="tab_2" id="tab_l2">2</label>
+    <label class="tab-lbl" for="tab_3" id="tab_l3">3</label>
+    <label class="tab-lbl" for="tab_4" id="tab_l4">4</label>
+    
+    <div style="clear:both"></div>
+
+    <div class="tabcontent">
+        <div id="tab_c1" class="tabcontent__item">Сверстать блок с контентом и вкладки, которые переключаются (только HTML и CSS)</div>
+        <div id="tab_c2" class="tabcontent__item">Контент в блоке тоже меняется вместе с переключением вкладки</div>
+        <div id="tab_c3" class="tabcontent__item">Мало контента</div>
+        <div id="tab_c4" class="tabcontent__item">Сверстать блок с контентом и вкладки, которые переключаются (только HTML и CSS). Сверстать блок с контентом и вкладки, которые переключаются (только HTML и CSS).Сверстать блок с контентом и вкладки, которые переключаются (только HTML и CSS). Сверстать блок с контентом и вкладки, которые переключаются (только HTML и CSS)</div>
+    </div>
+
+</div> <!-- tabs__wrapper -->
+
+<h2>Полоса загрузки</h2>
+
+<div class="loader">
+    <div class="loader__txt">Загружено более <span class="percent">0</span>%</div>
+    <div class="loader loader-black">
+        <div class="loader__txt loader__txt-black">Загружено более <span class="percent">60</span>%</div>
+    </div>
+</div>
+<div class="loader-terms">
+    Сверстать индикатор загрузки, с условием,<br> что js меняет только одно свойство css<br> и цифру процента загрузки
+</div>
+
+<h2>Меню</h2>
+
+    <nav class="menu__wrapper">
+        <ul class="menu">
+            <li class="menu__item">Пункт меню 1</li>
+            <li class="menu__item">Пункт меню 2</li>
+            <li class="menu__item">Пункт меню 3</li>
+            <li class="menu__item">Пункт меню 4</li>
+        </ul>        
+    </nav>
+
 
 <script>
-    
+
+
+
 </script>
 </body>
