@@ -84,6 +84,7 @@ h2 {
 	width: 495px;
 	height: 40px;
 	background: #525252;
+	margin: 0 0 10px;
 }
 .menu {
 	float: left;
@@ -91,9 +92,22 @@ h2 {
 	padding: 0;
 }
 .menu__item {
-	float: left;
-	list-style: none;
-	line-height: 40px;
-	padding: 0 23px;
-	color: #FFF;
+	margin: 0 100px 0 0;
+    padding: 5px;
+    position: relative;
+    display: inline-block;
+    line-height: 25px;
+}
+.menu li:first-child {
+	margin: 0 100px 0 30px;
+}
+.menu__link {
+	margin:0;
+    padding:0;
+    position:absolute;
+    color: #FFF;
+    text-decoration: none;
+}
+.active {
+	font-weight: bold;
 }

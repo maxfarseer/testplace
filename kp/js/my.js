@@ -1,4 +1,5 @@
 $(function() {
+    //preloader
     var $loader = $('.loader-black');
     var percent = 0;
     var $percent = $('.percent');
@@ -19,4 +20,23 @@ $(function() {
             clearInterval(percentTimer);
         };
     },285);
+
+    //menu
+    function Menu(options) {
+        var elem = options.elem;
+        var links = $('.menu__link', elem);
+
+        elem.on('click','.menu__link', onMenuItemClick);
+
+        function onMenuItemClick(e) {
+            e.preventDefault();
+            links.removeClass('active');
+            $(this).addClass('active');
+        };
+    };
+
+    var menu = new Menu({
+        elem: $('.menu')
+    });
+
 });
