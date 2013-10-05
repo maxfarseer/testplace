@@ -1,0 +1,7 @@
+some text before
+
+<!-- START -->
+<product sku="AD094AWBL138" />
+<!-- END -->
+
+some text after

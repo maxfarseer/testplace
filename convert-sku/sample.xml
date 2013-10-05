@@ -1,0 +1,15 @@
+<page id='10_products_sample' template="pages/products.xsl" xmlns:lm="http://lamoda.ru/lm/">
+    <title>Осенний гардероб</title>
+    <breadcrumbs>
+        <category>Осенний гардероб</category>
+    </breadcrumbs>
+    <banners>
+        <banner width="750" height="256">http://ad-emea.doubleclick.net/adi/N6705.309581.LAMODA.RU1/B5807564.220;sz=750x150;kw=shoes+women+sitelinkleftmenu;ord=1380802876?</banner>
+    </banners>
+    <lm:products>
+
+        <!-- sku codes here -->
+
+    </lm:products>
+    <footer><data>привет!</data></footer>
+</page>

@@ -1,0 +1,5 @@
+some text before
+
+{{ modules.cms_products(sku='AD094AWBL138') }}
+
+some text after
