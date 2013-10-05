@@ -1,0 +1,5 @@
+<!-- START -->
+<product sku="AD094AWBL138" />
+<product sku="AL845AWCS517" />
+<product sku="AL845AWHA878" />
+<!-- END -->
