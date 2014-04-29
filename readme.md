@@ -8,3 +8,7 @@
 <h3>Convert SKU<h3>
 <p>Небольшая автоматизация переноса старых страниц с подборками товаров на новый лад</p>
 <p>Конвертер берет все файлы из папки ./old/ и создает новые с такими же именами в папке ./new/<p>
+
+<h3>Yo</h3>
+AngularJS samples with Yeoman
+- sparkline - hot weather in Moscow (Angular custom directive + d3.js)
